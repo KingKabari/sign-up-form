@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Left panel: Image and logo -->
+    <div class="side-panel">
+      <div class="logo">
+        <!-- Replace with SVG or image of Odin logo -->
+        <img src="odin-forms/odin-logo.png" alt="Odin Logo" />
+        <span>ODIN</span>
+      </div>
+      <p class="photo-credit">
+        Photo by Halie West on Unsplash
+      </p>
+    </div>
+
+    <!-- Right panel: Sign up form -->
+    <div class="main-content">
+      <div class="intro">
+        <p>
+          <strong>This is not a real online service!</strong> You know you need something like this in your life to help you realize your deepest dreams.<br />
+          Sign up <em>now</em> to get started.
+        </p>
+        <p>
+          <strong>You <em>know</em> you want to.</strong>
+        </p>
+      </div>
+      <form class="signup-form" autocomplete="off">
+        <h2>Let's do this!</h2>
+        <div class="form-fields">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" />
+          </div>
+          <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" />
+          </div>
+        </div>
+        <button type="submit" class="create-account-btn">Create Account</button>
+        <p class="login-link">
+          Already have an account? <a href="#">Log in</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
