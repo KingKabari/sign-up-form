@@ -1,2 +1,2 @@
 # sign-up-form
-A demo sig-up form with TOP
+A demo sign-up form with TOP
